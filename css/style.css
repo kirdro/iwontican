@@ -1,0 +1,99 @@
+body {
+	background: #1f1f1f;
+}
+.container {
+	width: 1000px;
+}
+.testColor {
+	background: blue;
+}
+.testColor1 {
+	background: green;
+}
+.testColor2 {
+	background: grey;
+}
+.header {
+	background: black url(fonshapki.png) no-repeat;
+	height: 340px;
+	width: 1000px;
+	padding-top: 20px;
+}
+.logo-feature {
+	float: left;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+.name-featur {
+	color: red;
+	width: 500px;
+	float: left;
+}
+h1 {
+	font-size: 60px;
+	margin: 0;
+}
+.telefon-feature {
+	color: #999;
+	text-align: right;
+	padding-right: 5px;
+	float: left;
+	width: 341px;
+}
+h2 {
+	padding: 0;
+	margin: 0;
+	margin-top: 5px;
+}
+.text-block-feature {
+	width: 1000px;
+	float: left;
+	color: #999;
+	margin-left: 50px;
+}
+.navbar-feature {
+	max-height: 40px;
+	width: 1000px;
+	float: left;
+	background: rgba(0,0,0,.5);
+}
+.float-left {
+	float: left;
+}
+.navbar-size {
+	height: 40px;
+	float: left;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	margin-top: 60px;
+}
+.divider {
+	height: 40px;
+	margin: 0 0px;
+	border-right: 1px solid #ffffff;
+	border-left: 0px solid #f2f2f2;
+	width: 1px;
+}
+.font-size-navbar {
+	font-size: 20px;
+	margin-left: 40px;
+}
+li {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+a {
+	margin: 0;
+	padding: 0;
+	height: 40px;
+}
+p {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	padding-top: 5px;
+}
+.font-color {
+	color: red;
+}
