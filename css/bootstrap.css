@@ -3460,7 +3460,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 0px 25px 0px 25px;
-
+  height: 40px;
 }
 .nav > li > a:hover {
   text-decoration: none;
@@ -3473,7 +3473,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
  /* IE 10+ */background: radial-gradient(ellipse at center, rgba(255,255,255,0.5) 0%, rgba(255,252,255,0) 100%);
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffcff', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
-  height: 40px;
+  color: #ffffff;
 
 }
 .nav > li > a:active {

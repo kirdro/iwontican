@@ -1,6 +1,25 @@
 body {
 	background: #1f1f1f;
 }
+@font-face {
+	font-family: Castellar;
+	src: url(font/CASTELAR.TTF);
+}
+@font-face {
+	font-family: Kelson Sans RU Light;
+	src: url(font/Kelson Sans Light RU.otf);
+}
+@font-face {
+	font-family: Kelson Sans RU Bold;
+	src: url(font/Kelson Sans Bold RU.otf);
+}
+@font-face {
+	font-family: Kelson Sans RU Regular;
+	src: url(font/Kelson Sans Regular RU.otf);
+}
+.font-family {
+	font-family: Kelson Sans RU Light;
+}
 .container {
 	width: 1000px;
 }
@@ -32,13 +51,17 @@ body {
 h1 {
 	font-size: 60px;
 	margin: 0;
+	font-family: Castellar;
 }
-.telefon-feature {
-	color: #999;
+.block-telefon-feature {
+	color: #ffffff;
 	text-align: right;
 	padding-right: 5px;
 	float: left;
 	width: 341px;
+}
+.telefon-conf {
+	font-size: 40px;
 }
 h2 {
 	padding: 0;
@@ -48,7 +71,7 @@ h2 {
 .text-block-feature {
 	width: 1000px;
 	float: left;
-	color: #999;
+	color: #ffffff;
 	margin-left: 50px;
 }
 .navbar-feature {
@@ -97,3 +120,9 @@ p {
 .font-color {
 	color: red;
 }
+.font-color:hover {
+	color: #ffffff;
+}
+/*a {
+	color: red;
+}*/
