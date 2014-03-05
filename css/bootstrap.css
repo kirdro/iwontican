@@ -3474,6 +3474,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffcff', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
   color: #ffffff;
+  box-shadow: 0px -3px 50px rgba(255,255,255,.4);
+  -moz-box-shadow: 0px -3px 50px rgba(255,255,255,.4);
+  -webkit-box-shadow: 0px -3px 50px rgba(255,255,255,.4);
+  -o-box-shadow: 0px -3px 50px rgba(255,255,255,.4);
 
 }
 .nav > li > a:active {
@@ -3486,7 +3490,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
  /* IE 10+ */background: radial-gradient(ellipse at center, rgba(247,8,8,0.5) 0%, rgba(255,252,255,0) 100%);
 /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f70808', endColorstr='#fffcff', GradientType=1 );
 /* IE6-9 fallback on horizontal gradient */
-
+  box-shadow: 0px -3px 50px rgba(255,0,0,.4);
 }
 .nav > li.disabled > a {
   color: #999;
@@ -3663,7 +3667,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 40px;
   /*margin-bottom: 20px;*/
   border: 1px solid transparent;
 
