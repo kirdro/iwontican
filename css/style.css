@@ -17,6 +17,10 @@ body {
 	font-family: Kelson Sans RU Regular;
 	src: url(font/kelson/kelson_sans_regular_ru.eot), url(font/kelson/kelson_sans_regular_ru.ttf), url(font/kelson/kelson_sans_regular_ru.woff);
 }
+@font-face {
+	font-family: Monotype Corsiva;
+	src: url(font/MTCORSVA.TTF);
+}
 .body {
 	background: rgba(97,98,98,1);
 background: -moz-linear-gradient(top, rgba(97,98,98,1) 0%, rgba(43,43,43,1) 100%);
@@ -36,9 +40,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616262', end
 	background-position: left, right;
 	max-width: 1000px;
 	min-height: 1100px;
+	padding-left: 133px;
+	padding-right: 133px;
 }
 .font-family {
 	font-family: Kelson Sans RU Light;
+}
+.font-family2 {
+	font-family: Monotype Corsiva;
+	font-size: 30px;
+	font-weight: normal;
 }
 .container {
 	width: 1000px;
@@ -147,6 +158,60 @@ p {
 .font-color:hover {
 	color: #ffffff;
 }
+.block-featur-mini {
+	height: 115px;
+	width: 230px;
+	background: #2d2d2d no-repeat center;
+	float: left;
+	margin-top: 15px;
+	margin-left: 11px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 0px;
+}
+.block-featur-mini:hover{
+	height: 115px;
+	width: 230px;
+	background: #800000 ;
+	float: left;
+	margin-top: 15px;
+	margin-left: 11px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 0px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5);
+}
+.block-featur-mini:active{
+	height: 115px;
+	width: 230px;
+	background: rgba(255,255,255,.3);
+	float: left;
+	margin-top: 15px;
+	margin-left: 11px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 0px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5);
+	color: red;
+}
+
+.heart {
+	margin-top: 0px;
+	margin-left: 15px;
+
+}
+.heart:hover {
+	margin-top: 0px;
+	margin-left: 15px;
+}
+.font-position {
+	margin-top: -90px;
+}
+.font-position:hover {
+	margin-top: -90px;
+} 
+
+
 /*a {
 	color: red;
 }*/
