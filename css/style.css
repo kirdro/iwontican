@@ -21,6 +21,10 @@ body {
 	font-family: Monotype Corsiva;
 	src: url(font/MTCORSVA.TTF);
 }
+@font-face {
+	font-family: Gabriola;
+	src: url(font/Gabriola.ttf);
+}
 .body {
 	background: rgba(97,98,98,1);
 background: -moz-linear-gradient(top, rgba(97,98,98,1) 0%, rgba(43,43,43,1) 100%);
@@ -95,6 +99,11 @@ h1 {
 }
 .telefon-conf {
 	font-size: 40px;
+	color: #ffffff;
+}
+.telefon-conf2 {
+	font-size: 30px;
+	color: #ffffff;		
 }
 h2 {
 	padding: 0;
@@ -230,9 +239,54 @@ p {
 	margin-top: -90px;
 } 
 .block-feature-text {
-	width: 728px;
+	width: 712px;
 	float: left;
-	margin-left: 3px;
+	margin-left: 11px;
+	background: #a1a1a1;
+	margin-top: 10px;
+	text-align: left;
+	min-height: 960px;
+	padding-left: 15px;
+	padding-right: 10px;
+	text-indent: 15px;
+	font-family: Gabriola;
+	font-size: 27px;
+	line-height: 35px;
+	padding-top: 10px;
+	position: relative;
+	z-index: 5;
+}
+.font-feature {
+	color: black;
+}
+.font-feature1 {
+	color: red;
+	font-size: 31px;
+}
+.font-feature2 {
+	color: red;
+	font-size: 35px;
+	font-weight: normal;
+}
+.font-feature3 {
+	color: red;
+	font-size: 27px;
+	font-weight: normal;
+}
+.footer {
+	width: 1000px;
+	height: 55px;
+	background: #000000;
+	box-shadow: 0px -9px 10px rgba(0,0,0,1);	
+	position: relative;
+	z-index: 6;
+	overflow: hidden;	
+}
+.footer2 {
+	text-align: right;
+	position: relative;
+	margin-right: 10px;
+	z-index: 7;
 }
 
 
