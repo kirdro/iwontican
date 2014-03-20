@@ -308,6 +308,16 @@ p {
 	z-index: 6;
 }*/
 .active {
-	background: rgba(255,255,255,.5);
+	background: rgba(255,255,255,0.67);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.67) 0%, rgba(255,255,255,0.36) 51%, rgba(255,255,255,0.06) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(255,255,255,0.67)), color-stop(51%, rgba(255,255,255,0.36)), color-stop(100%, rgba(255,255,255,0.06)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.67) 0%, rgba(255,255,255,0.36) 51%, rgba(255,255,255,0.06) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.67) 0%, rgba(255,255,255,0.36) 51%, rgba(255,255,255,0.06) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.67) 0%, rgba(255,255,255,0.36) 51%, rgba(255,255,255,0.06) 100%);
+background: radial-gradient(ellipse at center, rgba(255,255,255,0.67) 0%, rgba(255,255,255,0.36) 51%, rgba(255,255,255,0.06) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
 	box-shadow: 0px 3px 20px rgba(255,255,255,.5);
+}
+.active1 {
+	background: #800000;
 }
