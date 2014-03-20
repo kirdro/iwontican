@@ -39,7 +39,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616262', end
 }
 .body-2 {
 	background: url(levoekruzhevo.png), url(pravoekruzhevo.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size: 133px;
 	background-position: left, right;
 	max-width: 1000px;
@@ -320,4 +320,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .active1 {
 	background: #800000;
+}
+.mini-product-block {
+	float: left;
+	width: 210px;
+	height: 315px;
+	margin-left: 14px;
+	margin-right: 13px;
+	margin-bottom: 27px;
+	position: relative;	
+}
+.block-feature-text1 {
+	width: 712px;
+	float: left;
+	margin-left: 11px;
+	background: #a1a1a1;
+	margin-top: 10px;
+	text-align: left;
+	min-height: 960px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-indent: 15px;
+	font-family: Gabriola;
+	font-size: 27px;
+	line-height: 35px;
+	padding-top: 15px;
+	position: relative;
+	z-index: 5;
+}
+.imeg-class {
+	margin: 0px;
+	position: absolute;
+	padding: 0px;
+	float: left;
+	z-index: 6;
+}
+.imeg-class:hover {
+	box-shadow: 3px 4px 30px rgba(255,255,255,.7), -3px -4px 30px rgba(255,255,255,.7);
+}
+.feature-line {
+	width: 210px;
+	position: absolute;
+	height: 50px;
+	background: rgba(0,0,0,.5);
+	color: white;
+	z-index: 99;
+	margin-top: 250px;
+	text-align: center;
 }
