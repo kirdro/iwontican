@@ -26,6 +26,7 @@ body {
 	src: url(font/Gabriola.ttf);
 }
 .body {
+	float: left;
 	background: rgba(97,98,98,1);
 background: -moz-linear-gradient(top, rgba(97,98,98,1) 0%, rgba(43,43,43,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(97,98,98,1)), color-stop(100%, rgba(43,43,43,1)));
@@ -36,16 +37,20 @@ background: linear-gradient(to bottom, rgba(97,98,98,1) 0%, rgba(43,43,43,1) 100
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616262', endColorstr='#2b2b2b', GradientType=0 );
 	max-width: 1000px;
 	min-height: 1100px;
+	z-index: :;	
 }
 .body-2 {
+	float: left;
 	background: url(levoekruzhevo.png), url(pravoekruzhevo.png);
 	background-repeat: repeat-y;
 	background-size: 133px;
 	background-position: left, right;
 	max-width: 1000px;
-	min-height: 1200px;
+	min-height: 1100px;
 	padding-left: 133px;
 	padding-right: 133px;
+	z-index: -1;
+
 }
 .font-family {
 	font-family: Kelson Sans RU Light;
@@ -72,6 +77,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616262', end
 	height: 340px;
 	width: 1000px;
 	padding-top: 20px;
+	z-index: 4;
 }
 .logo-feature {
 	float: left;
@@ -118,11 +124,13 @@ h2 {
 	margin-left: 60px;
 }
 .navbar-feature {
+	position: relative;
+	z-index: 5;
 	max-height: 40px;
 	width: 1000px;
 	float: left;
 	background: rgba(0,0,0,.5);
-	box-shadow: 0 15px 20px rgba(0,0,0,1);
+	box-shadow: 2px 15px 20px rgba(0,0,0,1);
 }
 .float-left{
 	float: left;
@@ -334,6 +342,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 712px;
 	float: left;
 	margin-left: 11px;
+	margin-right: 11px;
 	background: #a1a1a1;
 	margin-top: 10px;
 	text-align: left;
@@ -367,4 +376,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	z-index: 99;
 	margin-top: 250px;
 	text-align: center;
+}
+.float {
+	float: left;
 }
