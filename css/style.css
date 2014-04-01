@@ -37,7 +37,7 @@ background: linear-gradient(to bottom, rgba(97,98,98,1) 0%, rgba(43,43,43,1) 100
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616262', endColorstr='#2b2b2b', GradientType=0 );
 	max-width: 1000px;
 	min-height: 1100px;
-	z-index: :;	
+	
 }
 .body-2 {
 	float: left;
@@ -196,15 +196,15 @@ p {
 	padding-top: 0px;
 	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
 	color: red;
-	transition-timing-function: step-start;
+	transition-timing-function: ease-in;
     transition-duration: .1s;
-    -webkit-transition-timing-function: step-start;
+    -webkit-transition-timing-function: ease-in;
     -webkit-transition-duration: .1s;
-    -o-transition-timing-function: step-start;
+    -o-transition-timing-function: ease-in;
     -o-transition-duration: .1s;
-    -moz-transition-timing-function: step-start;
+    -moz-transition-timing-function: ease-in;
     -moz-transition-duration: .1s;
-    -ms-transition-timing-function: step-start;
+    -ms-transition-timing-function: ease-in;
     -ms-transition-duration: .1s;
 }
 .block-featur-mini:active{
@@ -262,6 +262,19 @@ p {
 	padding-top: 10px;
 	position: relative;
 	z-index: 5;
+}
+.block-feature-brends {
+	width: 712px;
+	float: left;
+	background: #a1a1a1;
+	min-height: 1500px;
+	text-indent: 15px;
+	font-family: Gabriola;
+	font-size: 27px;
+	line-height: 35px;
+	padding-top: 10px;
+	/*position: relative;*/
+	
 }
 .font-feature {
 	color: black;
@@ -379,4 +392,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .float {
 	float: left;
+}
+
+.block-mini-brands {
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	width: 168px;
+	height: 63px;	
+}
+.row {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.block-mini-brands:hover {
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	width: 168px;
+	height: 63px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
+}
+.block-midi-brands2 {
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	width: 697px;
+}
+.block-midi-brands2:hover {
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	width: 697px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
+}
+.block-mini-brands3 {
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	width: 343px;
+}
+.block-mini-brands3:hover {
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	width: 343px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
 }
