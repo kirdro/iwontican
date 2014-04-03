@@ -45,7 +45,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#616262', end
 	background-repeat: repeat-y;
 	background-size: 133px;
 	background-position: left, right;
-	max-width: 1000px;
+	width: 1000px;
 	min-height: 1100px;
 	padding-left: 133px;
 	padding-right: 133px;
@@ -266,14 +266,17 @@ p {
 .block-feature-brends {
 	width: 712px;
 	float: left;
+	margin-left: 11px;
 	background: #a1a1a1;
-	min-height: 1500px;
+	margin-top: 10px;
+	text-align: left;
+	min-height: 2800px;		
 	text-indent: 15px;
 	font-family: Gabriola;
 	font-size: 27px;
 	line-height: 35px;
 	padding-top: 10px;
-	/*position: relative;*/
+	
 	
 }
 .font-feature {
@@ -416,12 +419,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .block-midi-brands2 {
 	margin-right: 4px;
 	margin-left: 4px;
+	margin-bottom: 4px;
 	float: left;
 	width: 697px;
 }
 .block-midi-brands2:hover {
 	margin-right: 4px;
 	margin-left: 4px;
+	margin-bottom: 4px;
 	float: left;
 	width: 697px;
 	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
@@ -429,13 +434,64 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .block-mini-brands3 {
 	margin-right: 4px;
 	margin-left: 4px;
+	margin-bottom: 4px;
 	float: left;
 	width: 343px;
 }
 .block-mini-brands3:hover {
 	margin-right: 4px;
 	margin-left: 4px;
+	margin-bottom: 4px;
 	float: left;
 	width: 343px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
+}
+.block-mini-brands4 {
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	float: left;
+	width: 343px;
+}
+.block-mini-brands4:hover {
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	float: left;
+	width: 343px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
+}
+.block-mini-brands5 {
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	float: left;
+	width: 168px;
+	height: 223px;
+}
+.block-mini-brands5:hover {
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	float: left;
+	width: 168px;
+	height: 223px;
+	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
+}
+.block-mini-brands6 {
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	float: left;
+	width: 168px;
+	height: 142px;
+}
+.block-mini-brands6:hover {
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 4px;
+	float: left;
+	width: 168px;
+	height: 142px;
 	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
 }
