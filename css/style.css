@@ -271,7 +271,7 @@ p {
 	background: #a1a1a1;
 	margin-top: 10px;
 	text-align: left;
-	min-height: 960px;
+	min-height: 1100px;
 	padding-left: 0px;
 	padding-right: 0px;
 	text-indent: 15px;
@@ -531,6 +531,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-right: 1px;
 	color: #fa1915;
 	font-size: 20px;
+	box-shadow:  -1px -10px 30px #fff, 1px 0px 10px #fff;
 }
 .button-link1 {
 	width: 140px;
@@ -547,12 +548,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	float: left;
 	color: #fa1915;
 	font-size: 20px;
+	box-shadow:  -1px -10px 30px #fff, 1px 0px 10px #fff;
 }
 a>div>p {
 	/*padding: 0px;*/
 	padding-top: 5px;
 	line-height: 20px;
 	text-align: center;
+	text-indent: 0px;
 }
 .a1 {
 	padding-top: 30px;
@@ -576,7 +579,7 @@ a>div>p {
 	padding-right: 6px;
 }
 .a5 {
-	padding-top: 20px;
+	padding-top: 25px;
 	text-align: center;
 	padding-right: 6px;
 }
@@ -612,6 +615,22 @@ a>div>p {
     top:85px;
     display:none;   
 }
+@-webkit-keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   @-moz-keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   @-o-keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
+   @keyframes flash {
+    0%, 100% {opacity: 1;} 
+    50% {opacity: 0;}
+   }
  
 /*Делаем скрытую часть видимой*/
 #menu > .li:hover > .ul {
@@ -622,12 +641,12 @@ a>div>p {
 }
 .position {
 	position: relative;
+	-moz-position: relative;
 	right: 15px;	
 }
 .b2 {
 	position: relative;
 	right: 22px;
-
 }
 .b3 {
 	position: relative;
@@ -666,6 +685,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', end
 	color: #000;
 	line-height: 1.2;
 	text-align: center;
+	text-indent: 0px;
+}
+.font2:hover {
+	font-size: 17px;
+	color: #fa1915;
+	line-height: 1.2;
+	text-align: center;
+	text-indent: 0px;
+	text-decoration: none;
 }
 .img-size {
 	height: 100px;
@@ -675,8 +703,13 @@ hr {
 	padding: 0px;	
 }
 .box-list {
-	height: 50px;
+	min-height: 45px;
+	overflow-y: visible;
+	padding: 0px;
 }
 .position3 {
 	margin-left: -15px;
+}
+a {
+	text-decoration: none;
 }
