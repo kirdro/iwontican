@@ -162,6 +162,7 @@ a {
 	margin: 0;
 	padding: 0;
 	height: 40px;
+	text-decoration: none;
 }
 p {
 	margin: 0;
@@ -262,6 +263,24 @@ p {
 	padding-top: 10px;
 	position: relative;
 	z-index: 5;
+}
+.block-feature-text2 {
+	width: 712px;
+	float: left;
+	margin-left: 11px;
+	background: #a1a1a1;
+	margin-top: 10px;
+	text-align: left;
+	min-height: 960px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-indent: 15px;
+	font-family: Kelson Sans RU Light;
+	font-size: 27px;
+	line-height: 35px;
+	padding-top: 0px;
+	position: relative;
+	z-index: 0;
 }
 .block-feature-brends {
 	width: 712px;
@@ -494,4 +513,170 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 168px;
 	height: 142px;
 	box-shadow: 3px 3px 20px rgba(255,255,255,.5), -3px -3px 20px rgba(255,255,255,.5);
+}
+.button-link {
+	width: 142px;
+	height: 85px;
+	background: rgba(0,0,0,.75);
+	float: left;
+	margin-right: 1px;
+	color: #fff;
+	font-size: 20px;
+}
+.button-link:hover {
+	width: 142px;
+	height: 85px;
+	background: rgba(0,0,0,.75);
+	float: left;
+	margin-right: 1px;
+	color: #fa1915;
+	font-size: 20px;
+}
+.button-link1 {
+	width: 140px;
+	height: 85px;
+	background: rgba(0,0,0,.75);
+	float: left;
+	color: #fff;
+	font-size: 20px;
+}
+.button-link1:hover {
+	width: 140px;
+	height: 85px;
+	background: rgba(0,0,0,.75);
+	float: left;
+	color: #fa1915;
+	font-size: 20px;
+}
+a>div>p {
+	/*padding: 0px;*/
+	padding-top: 5px;
+	line-height: 20px;
+	text-align: center;
+}
+.a1 {
+	padding-top: 30px;
+	text-align: center;
+	padding-right: 6px;
+		
+}
+.a2 {
+	padding-top: 30px;
+	text-align: center;
+	padding-right: 6px;	
+}
+.a3 {
+	padding-top: 15px;
+	text-align: center;
+	padding-right: 6px;
+}
+.a4 {
+	padding-top: 10px;
+	text-align: center;
+	padding-right: 6px;
+}
+.a5 {
+	padding-top: 20px;
+	text-align: center;
+	padding-right: 6px;
+}
+/*>>>>>>>>>>*/
+/*Обнуляем отступы*/
+.ul, .li {
+    margin:0;
+    padding:0;
+    list-style-type:none;   
+}
+ 
+/*Задаём параметры блока, содержащего основное меню*/
+#menu {
+    display:block;
+    position:absolute;
+    /*top:100px;
+    left:50px;*/
+    height: 85px;
+   	left: 0px;		
+         
+}
+ 
+/*Задаём стили для разделов нашего меню*/
+#menu > .li {
+    display:inline-block;
+    height:20px;
+    position:relative;
+}
+ 
+/*Стили для скрытого выпадающего меню*/
+#menu > .li > .ul {
+    position:absolute;
+    top:85px;
+    display:none;   
+}
+ 
+/*Делаем скрытую часть видимой*/
+#menu > .li:hover > .ul {
+    display:block;  
+}
+.margin-list {
+	padding-top: 0px;
+}
+.position {
+	position: relative;
+	right: 15px;	
+}
+.b2 {
+	position: relative;
+	right: 22px;
+
+}
+.b3 {
+	position: relative;
+	right: 29px;
+}
+.b4 {
+	position: relative;
+	right: 36px;
+}
+.b5 {
+	position: relative;
+	left: 572px;
+	bottom: 35px;
+}
+.bag-list {
+	background: rgba(250,250,250,1);
+background: -moz-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(72,72,72,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(250,250,250,1)), color-stop(100%, rgba(72,72,72,1)));
+background: -webkit-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(72,72,72,1) 100%);
+background: -o-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(72,72,72,1) 100%);
+background: -ms-linear-gradient(top, rgba(250,250,250,1) 0%, rgba(72,72,72,1) 100%);
+background: linear-gradient(to bottom, rgba(250,250,250,1) 0%, rgba(72,72,72,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#484848', GradientType=0 );
+	width: 142px;
+	max-height: 1000px;
+}
+
+
+
+
+/*<<<<<<<<<<<<<*/
+
+
+.font2 {
+	font-size: 17px;
+	color: #000;
+	line-height: 1.2;
+	text-align: center;
+}
+.img-size {
+	height: 100px;
+} 
+hr {
+	margin: 0px;
+	padding: 0px;	
+}
+.box-list {
+	height: 50px;
+}
+.position3 {
+	margin-left: -15px;
 }
