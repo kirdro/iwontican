@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>I Want I Can</title>
+        <meta charset="utf-8">
+    <!-- Bootstrap -->
+        <link href="/static/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="/static/css/style.css" media="screen">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="row">
+                    <div class="logo-feature">
+                        <img src="/static/img/logo.png">
+                    </div>
+                    <div class="name-featur">
+                        <h1>I WANT <br />I CAN</h1>
+                    </div>
+                    <div class="block-telefon-feature font-family">
+                        <h2 class="telefon-conf">+7 (929) 554-97-29</h2>
+                    </div>
+                    <div class="text-block-feature"><h2 class="font-family">У нас вы найдете все для чувственного наслаждения</h2></div>
+                    <div class=" navbar-size" >
+                        <div class="navbar-feature">
+                            <div class="navbar">
+                                <div class="navbar-inner">
+                                    <ul class="nav font-size-navbar font-family">
+                                        <li class="divider float-left"></li>
+                                        <li class="float-left"><a class="font-color" href="index.html"><p>Главная</p></a></li>
+                                        <li class="divider float-left "></li>
+                                        <li class="float-left"><a class="font-color" href="#"><p>Акции</p></a></li>
+                                        <li class="divider float-left"></li>
+                                        <li class="float-left"><a class="font-color" href="katalog_tovarov.html"><p>Каталог Товаров</p></a></li>
+                                        <li class="divider float-left"></li>
+                                        <li class="float-left"><a class="font-color" href="kolekcii.html"><p>Коллекции</p></a></li>
+                                        <li class="divider float-left"></li>
+                                        <li class="float-left"><a class="font-color" href="#"><p>Форум</p></a></li>
+                                        <li class="divider float-left"></li>
+                                        <li class="float-left"><a class="font-color" href="#"><p>F.A.Q</p></a></li>
+                                        <li class="divider float-left "></li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="body-2">
+                    <div class="float">
+                        <a href="list-he.html">
+                            <div class="block-featur-mini">
+                                <img class="heart" src="/static/css/serdtse.png">
+                                <h4 class="font-family2 font-position">Для Него</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="float">
+                        <a href="list-doth.html">
+                            <div class="block-featur-mini">
+                                <img class="heart" src="/static/css/serdtse.png">
+                                <h4 class="font-family2 font-position">Для Двоих</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="float">
+                        <a href="list-she.html">
+                            <div class="block-featur-mini">
+                                <img class="heart" src="/static/css/serdtse.png">
+                                <h4 class="font-family2 font-position">Для Неё</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="block-feature-text">
+                        <div class="border">
+                            <img class="img-size" src="{{ item_.image.url }}">
+                            <div class="price">
+                                <p class="price-text">{{ item_.price }} руб</p>
+                            </div>
+                        </div>
+                        <div class="float-text-item">
+                            <h2 class="text-math2">{{ item_.title }}</h2>
+                            <div class="mini-text-item">
+                                <div class="float-text-item2">
+                                   <p class="text-math">Бренд:</p> 
+                                </div>
+                                <div class="float-text-item2">
+                                    <h3 class="text-math3">{{ item_.brand.title }}</h3>
+                                </div>
+                            </div>
+                            <div class="mini-text-item">
+                                <div class="float-text-item2">
+                                    <p class="text-math">Категория:</p>
+                                </div>
+                                <div class="float-text-item2">
+                                    <h3 class="text-math3">{{ item_.category.title }}</h3>
+                                </div> 
+                            </div>
+                            <div class="mini-text-item">
+                                <div class="float-text-item2">
+                                    <p class="text-math">Подкатегория:</p>
+                                </div>
+                                <div class="float-text-item2">
+                                    <h3 class="text-math3">{{ item_.subcategory.title }}</h3>
+                                </div>
+                            </div>
+                            <div class="mini-text-item">
+                                <div class="float-text-item2">
+                                    <p class="text-math">Для кого:</p>
+                                </div>
+                                <div class="float-text-item2">
+                                    <h3 class="text-math3">{{ item_.typefor }}</h3>
+                                </div>
+                            </div>
+                            <div>
+                                <p class="text-math">Описание:</p>
+                                <div class="position">
+                                    <p class="text-math">{{ item_.discription }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer2">
+                    <h2 class="telefon-conf2 font-family">Звонте нам! +7 (929) 554-97-29</h2>
+                </div>
+            </div>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
